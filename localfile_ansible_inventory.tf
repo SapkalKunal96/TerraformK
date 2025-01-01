@@ -9,7 +9,7 @@ resource "local_file" "ansible_inventory" {
 
 variable "ssh_key_file" {
   description = "Path to the SSH private key file"
-  default     = "/home/kunal/upload_to_git_only/AnsibleK/devops.pem"
+  default     = "/home/kunal/upload_to_git_only/Secrets/devops.pem"
 }
 
 variable "ssh_user" {
