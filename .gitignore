@@ -1,0 +1,9 @@
+#Personal and Pem file
+devops.pem
+*.pem
+
+#terraform tfstatefiles
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+.terraform.lock.hcl
